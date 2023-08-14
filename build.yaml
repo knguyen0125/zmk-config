@@ -14,6 +14,14 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: corne_choc_xiao_left
+    shield: corne_choc_xiao_left_central
   - board: seeeduino_xiao_ble
-    shield: corne_choc_xiao_right
+    shield: corne_choc_xiao_right_central
+  - board: seeeduino_xiao_ble
+    shield: corne_choc_xiao_left_single
+  - board: seeeduino_xiao_ble
+    shield: corne_choc_xiao_right_single
+  - board: seeeduino_xiao_ble
+    shield: corne_choc_xiao_dongle
+  - board: seeeduino_xiao_ble
+    shield: settings_reset

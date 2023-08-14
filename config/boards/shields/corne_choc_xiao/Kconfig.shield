@@ -1,5 +1,14 @@
-config SHIELD_CORNE_CHOC_XIAO_LEFT
-    def_bool $(shields_list_contains,corne_choc_xiao_left)
+config SHIELD_CORNE_CHOC_XIAO_LEFT_SINGLE
+    def_bool $(shields_list_contains,corne_choc_xiao_left_single)
 
-config SHIELD_CORNE_CHOC_XIAO_RIGHT
-    def_bool $(shields_list_contains,corne_choc_xiao_right)
+config SHIELD_CORNE_CHOC_XIAO_LEFT_CENTRAL
+    def_bool $(shields_list_contains,corne_choc_xiao_left_central)
+
+config SHIELD_CORNE_CHOC_XIAO_RIGHT_SINGLE
+    def_bool $(shields_list_contains,corne_choc_xiao_right_single)
+
+config SHIELD_CORNE_CHOC_XIAO_RIGHT_CENTRAL
+    def_bool $(shields_list_contains,corne_choc_xiao_right_central)
+    
+config SHIELD_CORNE_CHOC_XIAO_DONGLE
+    def_bool $(shields_list_contains,corne_choc_xiao_dongle)
