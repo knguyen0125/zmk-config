@@ -25,10 +25,4 @@ if SHIELD_CORNE_CHOC_XIAO_LEFT_SINGLE || SHIELD_CORNE_CHOC_XIAO_RIGHT_SINGLE || 
 
 config ZMK_SPLIT
     default y
-
-config ZMK_BLE
-    default y
-
-config ZMK_USB
-    default y
 endif
