@@ -16,7 +16,6 @@
         behaviors {
                 hm: homerow_mods {
                         compatible = "zmk,behavior-hold-tap";
-                        label = "HOMEROW_MODS";
                         #binding-cells = <2>;
                         tapping-term-ms = <200>;
                         quick-tap-ms = <0>;
@@ -67,9 +66,9 @@
 //             |      |       |    | = | ENT  | BSPC  | DEL  |
                         bindings = <
     &none       &none       &none           &none           &none                           &none               &none           &none           &none           &none    
-    &kp LWIN    &kp LALT    &kp LCTRL       &kp LSHIFT      &none                           &kp LEFT            &kp DOWN        &kp UP          &kp RIGHT       &kp CAPS 
+    &kp LWIN    &kp LALT    &kp LCTRL       &kp LSHIFT      &none                           &mmv MOVE_LEFT      &mmv MOVE_DOWN  &mmv mOVE_UP    &mmv MOVE_RIGHT &kp CAPS 
     &none       &none       &none           &none           &none                           &kp HOME            &kp PG_DN       &kp PG_UP       &kp END         &kp INSERT 
-                            &none           &none           &trans                          &kp ENTER           &kp BSPC        &kp DEL
+                            &none           &none           &trans                          &mkp RCLK           &mkp LCLK        &mkp MCLK
                         >;
                 };
 
